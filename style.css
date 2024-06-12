@@ -27,20 +27,20 @@ body {
     text-align: center;
 }
 
-h1 {
-    font-size: 2.5em;
+.banner {
+    width: 100%;
+    height: auto;
     margin-bottom: 20px;
-    color: #61dafb;
-}
-
-.section {
-    margin-top: 30px;
 }
 
 h2 {
     font-size: 2em;
     margin-bottom: 10px;
     color: #61dafb;
+}
+
+.section {
+    margin-top: 20px;
 }
 
 form {
