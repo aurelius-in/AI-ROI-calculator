@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI ROI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>AI ROI Calculator</h1>
+        
+        <div class="section">
+            <h2>Project Information</h2>
+            <form id="roi-form">
+                <input type="text" id="project-name" placeholder="Project Name" required>
+                <input type="number" id="initial-investment" placeholder="Initial Investment ($)" required>
+                <input type="number" id="annual-revenue" placeholder="Annual Revenue Increase ($)" required>
+                <input type="number" id="annual-cost-savings" placeholder="Annual Cost Savings ($)" required>
+                <input type="number" id="years" placeholder="Years of Benefit" required>
+                <button type="submit">Calculate ROI</button>
+            </form>
+        </div>
+        
+        <div class="section">
+            <h2>ROI Result</h2>
+            <p id="result"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
